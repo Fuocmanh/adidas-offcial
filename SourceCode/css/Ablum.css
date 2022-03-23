@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+  }
+.boxall{
+    position:relative;
+    width: 1349px;
+}
+
+.boxall > header>.thongbao{
+    background-color: black;
+    width: 100%;
+    height: 27px;
+    line-height: 27px;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+.boxall> header>.thongbao> .tb1{
+    float: left;
+    color: white;
+    margin-right:150px;
+    margin-left: 170px;
+}
+.boxall>header> .thongbao> .tb2{
+    float: left;
+    color: white;
+    margin-right:200px;
+    margin-left: 140px;
+}
+.boxall>header> .thongbao> .tb3{
+    float: left;
+    color: white;
+}
+.boxall > header>.menu-logo{
+    position: relative;
+    width: 100%;
+    height: 79px;
+    background-color:white;
+    border: 1px solid lightgray; 
+}
+.boxall >header> .menu-logo > nav >ul> a>img{
+    float: left;
+    width: 5%;
+    margin:17px -120px 15px 160px;
+}
+.boxall > header>.menu-logo> nav>{
+position: absolute;
+}
+.boxall >header> .menu-logo> nav> ul{
+    position: relative;
+    line-height: 79px;
+    
+}
+.boxall >header> .menu-logo> nav> ul> a{
+    margin-left:120px;
+    font-size: 24px;
+    text-decoration: none;
+    color:black;
+}
+
+.boxall >header> .menu-logo> nav> ul> a:hover{
+    color: #ea4636;  
+}
+body{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+}
+.body {
+    position: relative;
+    width: 100%;
+    text-align:center;
+}
+.tittle{
+    text-align:center;
+    margin: 10px 0;
+}
+hr{
+    width: 200px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: black;
+  border: none;
+  margin:15px 573px;
+}
+
+html {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+  }
+  input,
+  textarea,
+  select,
+  button {
+    outline: none;
+  }
+  input {
+    line-height: normal;
+  }
+  label,
+  button {
+    cursor: pointer;
+  }
+  a {
+    text-decoration: none;
+  }
+  img {
+    display: block;
+    max-width: 100%;
+  }
+  body {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    line-height: 1;
+    
+  }
+  .slider {
+    max-width: 1000px;
+    margin: 25px auto;
+    position: relative;
+  }
+  .slider-next,
+  .slider-prev {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    border-radius: 100rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #999;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    z-index: 10;
+  }
+  .slider-next {
+    right: -25px;
+  }
+  .slider-next:hover ,.slider-prev:hover{
+      background-color: wheat;
+  }
+  .slider-prev {
+    left: -25px;
+  }
+  .slider-dots {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    z-index: 10;
+  }
+  .slider-dots li {
+    margin: 0 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 100rem;
+    background-color: #999;
+    cursor: pointer;
+    transition: background-color 0.25s linear;
+  }
+  .slider-dots li.active {
+    background-color: white;
+  }
+  .slider-wrapper {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+  }
+  .slider-main {
+    display: flex;
+    position: relative;
+    transition: transform 0.25s linear;
+    height: 100%;
+  }
+  .slider-item {
+    height: 100%;
+    width: 100%;
+    flex: 1 0 100%;
+    user-select: none;
+  }
+  .slider-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+  }
